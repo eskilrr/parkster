@@ -1,0 +1,18 @@
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+    max-width: 45rem;
+    margin: 1rem auto;
+    padding: 2rem;
+}
+
+.step{
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(9, 157, 255) !important;
+    color: white !important;
+}
+

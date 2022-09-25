@@ -1,0 +1,84 @@
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    max-width: 40rem;
+    margin: 4rem auto;
+    padding: 1rem;
+    display: grid;
+
+
+}
+
+.formStyle {
+    padding: 2rem;
+    margin: auto;
+    width: 90%;
+}
+
+.formStyle li{
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 5px 0 0 0;
+}
+
+.formStyle label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+
+.formStyle .city{
+    width: 48.5%;
+}
+
+.formStyle .title{
+    color: #5aa3ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formStyle .postalCode{
+    width: 23%;
+}
+
+.formStyle input,
+textarea,
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:3px;
+    width: 100%;
+}
+
+.form-style-1 input:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+
+.actions{
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #4b79ff;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #07489f;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
